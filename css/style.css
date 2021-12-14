@@ -12,8 +12,105 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+
+	@media only screen and (max-width: 768px) {
+		#txt {
+    font-size: 14px!important;
+}
+
+.pad{padding:0 10px !important;}
+
+.event_container {
+    width: 100%;
+height: 649px!important;}
+
+
+.slicknav_menu .slicknav_icon {
+    margin-right: 6px;
+    margin-top: 3px;
+    position: relative;
+    right: 27px;
+    top: -5px;
+padding-bottom: 3px;}
+
+
+body,html{overflow-x:hidden;}
+#accordion .panel-title a:before, #accordion .panel-title a.collapsed:before {
+    content: "⬇️";
+    font-family: "Font Awesome 5 Free";
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute!important;
+    top: 15px;
+    right: 8px!important;
+    transform: rotate(
+180deg);
+    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+}
+
+.slider_area .single_slider {
+    height: 750px;
+    background-size: cover;
+    height: 598px !important;
+    background-repeat: no-repeat;
+background-position: 100%!important;}
+
+.slider_text {
+    position: relative !important;
+    left: 0!important;
+}
+
+		.add{margin-left:0!important;}
+		.qul{margin-left:0!important;}
+		.season_tab {
+    float: left;
+    clear: both;
+    width: 617px;
+}
+p {
+font-size: 16px!important;}
+.footer .footer_top {
+    padding-top: 44px;
+    /* padding-bottom: 99px; */
+height: auto!important;}
+
+.left {
+    position: relative!important;
+     left: 0px!important;}
+	 #box {
+    height: 214px !important;
+
+}
+	 
+p{padding:0 10px;}
+h4{padding:0 10px;}
+.mtp{ margin-top: 1185px;}
+.bot{margin-top: 15px;}
+	.season_content {
+    position: absolute!important;
+    top: 440px!important;
+    display: block!important;
+    height: 1170px!important;
+    width: 100% !important;
+    left: 0!important;
+    background: #b56e6e;
+    right: 0!important;
+    bottom: 15px!important;
+    padding: 20px;
+    border: 1px solid #ccc;}
+	
+	}
 .cert{margin-left: -19px;}
-.card{background:#efe1c6; !important;
+.card{background:#efe1c6; !important;  box-shadow: 
+    0 2px 2px rgba(0,0,0,0.1),
+    0 4px 4px rgba(0,0,0,0.1),
+    0 6px 6px rgba(0,0,0,0.1),
+    0 8px 8px rgba(0,0,0,0.1);
 }
 
 .cd{height:180px!important;}
@@ -1277,7 +1374,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 .slider_text{
     position: relative;
-    left: 58px;
+    left:110px;
 }
 
 /* line 4, ../../Arafath/CL/CL October/213. Business/HTML/scss/_slider.scss */
@@ -1304,7 +1401,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 38px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 400;
@@ -1348,7 +1445,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 /* line 44, ../../Arafath/CL/CL October/213. Business/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: #D5D5D5;
   margin-bottom: 24px;
@@ -1664,7 +1761,7 @@ font-size: 16px;
 
 /* line 193, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area .single_service_wrap:hover {
- background-color: #e8312d;color:#000;
+ background: #DAA520!important;color:#000;
   
 }
 
@@ -2691,7 +2788,7 @@ padding-top: 44px;
     /* padding-bottom: 99px; */
     height: 370px;
     padding-bottom: 129px;
-    background: #2C2C2C;
+    background: #be5858;
 
 
 }
@@ -2796,14 +2893,14 @@ padding-top: 44px;
 
 /* line 75, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
-  color: #C7C7C7;
+  color: #fff;
   font-size: 13px;
   line-height: 42px;
 }
 
 /* line 79, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #C7C7C7;
+  color: #fff;
 }
 
 /* line 81, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
@@ -2906,18 +3003,20 @@ padding-top: 44px;
 /* line 151, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
   font-size: 18px;
-  color: #C3B2F0;
+  color: #000!important;
   width: 40px;
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: #565656;
+      background-color: #63a4ff;
+    background-image: linear-gradient(
+315deg, #63a4ff 0%, #83eaf1 74%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px !important;
   margin-right: 7px;
-  color: #FFFFFF;
+  
   line-height: 41px !important;
 }
 
@@ -7130,11 +7229,16 @@ h6 {
     display: block;
     padding:16px 30px;
     margin: 0;
+	  box-shadow: 
+    0 2px 2px rgba(0,0,0,0.1),
+    0 4px 4px rgba(0,0,0,0.1),
+    0 6px 6px rgba(0,0,0,0.1),
+    0 8px 8px rgba(0,0,0,0.1);
 
-    background: #8d0707;
+    background: #b0d552;
     font-size: 13px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: none;
@@ -7160,7 +7264,7 @@ h6 {
     transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
 }
 #accordion .panel-title a.collapsed:before{
-    color: rgba(255,255,255,0.5);
+color: rgb(83 70 69);
     transform: rotate(0deg);
 }
 #accordion .panel-body{
@@ -7176,18 +7280,18 @@ h6 {
 
 
 .serviceBox{
-    color: #036c78;
-    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #daa520;
+  
     text-align: center;
     padding: 30px 25px 40px;
     border-radius: 0 80px;
-    border: 2px dashed #036c78;
+    border: 2px dashed #daa520;
     position: relative;
     z-index: 1;
 }
 .serviceBox:before{
     content: "";
-    background: #f4f4f4;
+    background:#efe1c6;
     border-radius: 0 70px;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
     transform: translateX(-50%) translateY(-50%);
@@ -7200,7 +7304,7 @@ h6 {
 }
 .serviceBox:after{
     content: "";
-    background:#036c78;
+    background:#daa520;
     width: 130px;
     height: 70px;
     position: absolute;
@@ -7276,3 +7380,89 @@ h6 {
 .one{height:360px;}
 
 #cr-img{background: #aaaaaa;}
+
+.slicknav_btn {
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 99;
+    border: none;
+    border-radius: 3px;
+    top: 5px;
+    padding: 5px;
+    right: 0;
+    margin-top: -5px;
+    top: -61px;
+}
+
+.header-area .header-top_area {
+    padding: 12px 0;
+    background: #be5858;
+    display: block;
+    display: block !important;header-area .header-top_area {
+    padding: 12px 0;
+    background: #8d0707;
+    display: block;
+    display: block !important;}
+	
+	
+	.serviceBox{
+    color: #fff;
+    background: linear-gradient(to right,#F26823,#F6901D);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 75px;
+    box-shadow: 0 0 20px -7px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 1;
+}
+.serviceBox:before{
+    content: "";
+    background: linear-gradient(to right,#f9f9f9,#e1e1e1);
+    width: 100%;
+    height: 130px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.serviceBox .service-icon{
+    color: #F26823;
+    background: #fff;
+    font-size: 45px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1;
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.serviceBox .description{
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    line-height: 23px;
+}
+.serviceBox.purple{ background: linear-gradient(to right,#BA2F8D,#D4529C); }
+.serviceBox.purple .service-icon{ color: #BA2F8D; }
+.serviceBox.blue{ background: linear-gradient(to right,#20978E,#43B2A4); }
+.serviceBox.blue .service-icon{ color: #20978E; }
+.serviceBox.green{ background: linear-gradient(to right,#82C147,#aecc0a); }
+.serviceBox.green .service-icon{ color: #82C147; }
+@media only screen and (max-width: 990px){
+    .serviceBox{ margin: 0 0 30px; }
+}
+License Terms
+	
+	

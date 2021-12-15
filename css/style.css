@@ -3111,7 +3111,7 @@ padding-top: 44px;
 
 /* line 79, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #fff;
+  color: #fff;font-size:15px;
 }
 
 /* line 81, ../../Arafath/CL/CL October/213. Business/HTML/scss/_footer.scss */
